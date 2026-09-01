@@ -1,12 +1,6 @@
 <p align="center">
-  <img src="./hero.svg" width="100%" alt="Sharif Bin Aziz Shadman"/>
+  <img src="./hero.svg" width="100%" alt="Cute animated coding robot"/>
 </p>
-
-
-
-
-
-
 
 
 
