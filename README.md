@@ -5,9 +5,9 @@
 
 
 
+## [ STUDENT — WEB · PHOTO · IOT · ROBOTICS ]
 
-
-## Hi! I'm **Sharif Bin Aziz Shadman**, a student who is interested in **technology and creative work**.
+Hi! I'm **Sharif Bin Aziz Shadman**, a student who is interested in **technology and creative work**.
 
 I enjoy making websites, learning through hands-on projects, photography, and exploring new experiences. I'm still learning and experimenting, and I try to improve a little with every project I build.
 
