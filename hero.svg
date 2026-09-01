@@ -1,107 +1,171 @@
-<svg width="1200" height="360" viewBox="0 0 1200 360" xmlns="http://www.w3.org/2000/svg">
+<svg width="1200" height="380" viewBox="0 0 1200 380" xmlns="http://www.w3.org/2000/svg">
 <defs>
 <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-<stop offset="0%" stop-color="#020617"/>
-<stop offset="50%" stop-color="#0f172a"/>
-<stop offset="100%" stop-color="#082f49"/>
+<stop offset="0" stop-color="#020617"/>
+<stop offset=".5" stop-color="#0b1224"/>
+<stop offset="1" stop-color="#06283d"/>
 </linearGradient>
+
 <radialGradient id="glow">
-<stop offset="0%" stop-color="#22d3ee" stop-opacity=".22"/>
-<stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+<stop offset="0" stop-color="#22d3ee" stop-opacity=".2"/>
+<stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
 </radialGradient>
+
 <filter id="blur">
-<feGaussianBlur stdDeviation="12"/>
+<feGaussianBlur stdDeviation="18"/>
 </filter>
+
 <filter id="neon">
-<feGaussianBlur stdDeviation="3" result="blur"/>
+<feGaussianBlur stdDeviation="3" result="b"/>
 <feMerge>
-<feMergeNode in="blur"/>
+<feMergeNode in="b"/>
 <feMergeNode in="SourceGraphic"/>
 </feMerge>
 </filter>
+
+<linearGradient id="name" x1="0" x2="1">
+<stop offset="0" stop-color="#e0f2fe"/>
+<stop offset=".45" stop-color="#ffffff"/>
+<stop offset="1" stop-color="#a5f3fc"/>
+</linearGradient>
 </defs>
 
-<rect width="1200" height="360" fill="url(#bg)"/>
+<rect width="1200" height="380" rx="24" fill="url(#bg)"/>
 
-<circle cx="180" cy="170" r="180" fill="url(#glow)" filter="url(#blur)"/>
-<circle cx="1020" cy="190" r="200" fill="url(#glow)" filter="url(#blur)"/>
+<circle cx="160" cy="190" r="220" fill="url(#glow)" filter="url(#blur)">
+<animate attributeName="opacity" values=".45;.8;.45" dur="7s" repeatCount="indefinite"/>
+</circle>
 
-<g stroke="#38bdf8" stroke-opacity=".08">
-<path d="M0 60H1200"/>
-<path d="M0 120H1200"/>
-<path d="M0 180H1200"/>
-<path d="M0 240H1200"/>
-<path d="M0 300H1200"/>
-<path d="M100 0V360"/>
-<path d="M200 0V360"/>
-<path d="M300 0V360"/>
-<path d="M400 0V360"/>
-<path d="M500 0V360"/>
-<path d="M600 0V360"/>
-<path d="M700 0V360"/>
-<path d="M800 0V360"/>
-<path d="M900 0V360"/>
-<path d="M1000 0V360"/>
-<path d="M1100 0V360"/>
+<circle cx="1040" cy="190" r="220" fill="url(#glow)" filter="url(#blur)">
+<animate attributeName="opacity" values=".8;.45;.8" dur="7s" repeatCount="indefinite"/>
+</circle>
+
+<g stroke="#38bdf8" stroke-opacity=".055">
+<path d="M0 70H1200"/>
+<path d="M0 140H1200"/>
+<path d="M0 210H1200"/>
+<path d="M0 280H1200"/>
+<path d="M0 350H1200"/>
+<path d="M100 0V380"/>
+<path d="M200 0V380"/>
+<path d="M300 0V380"/>
+<path d="M400 0V380"/>
+<path d="M500 0V380"/>
+<path d="M600 0V380"/>
+<path d="M700 0V380"/>
+<path d="M800 0V380"/>
+<path d="M900 0V380"/>
+<path d="M1000 0V380"/>
+<path d="M1100 0V380"/>
 </g>
 
-<g fill="none" stroke="#22d3ee" stroke-width="2" stroke-opacity=".45" filter="url(#neon)">
-<path d="M0 80H120V45H210"/>
-<path d="M0 275H160V315H270"/>
-<path d="M1200 75H1080V115H1010"/>
-<path d="M1200 285H1060V250H970"/>
-<path d="M230 0V55H280V90"/>
-<path d="M970 360V305H920V275"/>
+<g fill="none" stroke="#22d3ee" stroke-width="2" opacity=".4">
+<path d="M0 85H125V55H215"/>
+<path d="M0 300H145V330H260"/>
+<path d="M1200 85H1080V120H995"/>
+<path d="M1200 300H1060V265H980"/>
 </g>
 
 <g fill="#67e8f9">
-<circle cx="120" cy="80" r="4"/>
-<circle cx="210" cy="45" r="4"/>
-<circle cx="160" cy="275" r="4"/>
-<circle cx="270" cy="315" r="4"/>
-<circle cx="1080" cy="75" r="4"/>
-<circle cx="1010" cy="115" r="4"/>
-<circle cx="1060" cy="285" r="4"/>
-<circle cx="970" cy="250" r="4"/>
+<circle cx="125" cy="85" r="4">
+<animate attributeName="opacity" values=".25;1;.25" dur="3s" repeatCount="indefinite"/>
+</circle>
+<circle cx="1080" cy="85" r="4">
+<animate attributeName="opacity" values="1;.25;1" dur="3s" repeatCount="indefinite"/>
+</circle>
 </g>
 
-<g transform="translate(105 125)" fill="none" stroke="#38bdf8" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" opacity=".8" filter="url(#neon)">
+<g transform="translate(125 120)" fill="none" stroke="#38bdf8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" opacity=".65" filter="url(#neon)">
 <path d="M65 0L15 55L65 110"/>
 <path d="M115 0L165 55L115 110"/>
-<path d="M100 15L80 95"/>
+<path d="M100 14L80 96"/>
 </g>
 
-<g transform="translate(1010 105)" stroke="#22d3ee" fill="none" stroke-width="5" filter="url(#neon)">
-<rect x="0" y="25" width="130" height="100" rx="25"/>
-<path d="M65 25V0"/>
-<circle cx="65" cy="-5" r="6" fill="#22d3ee"/>
-<circle cx="38" cy="70" r="10" fill="#38bdf8"/>
-<circle cx="92" cy="70" r="10" fill="#38bdf8"/>
-<path d="M35 100H95"/>
-<path d="M0 65H-18"/>
-<path d="M130 65H148"/>
+<g transform="translate(955 100)" filter="url(#neon)">
+<rect x="0" y="30" width="150" height="125" rx="42" fill="#091b2c" stroke="#22d3ee" stroke-width="4"/>
+
+<path d="M75 30V5" stroke="#22d3ee" stroke-width="4"/>
+<circle cx="75" cy="0" r="6" fill="#67e8f9">
+<animate attributeName="r" values="5;7;5" dur="3s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="45" cy="82" r="15" fill="#020617" stroke="#38bdf8" stroke-width="3"/>
+<circle cx="105" cy="82" r="15" fill="#020617" stroke="#38bdf8" stroke-width="3"/>
+
+<circle cx="45" cy="82" r="6" fill="#67e8f9">
+<animate attributeName="opacity" values="1;1;0;1;1" dur="5s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="105" cy="82" r="6" fill="#67e8f9">
+<animate attributeName="opacity" values="1;1;0;1;1" dur="5s" repeatCount="indefinite"/>
+</circle>
+
+<path d="M48 116 Q75 137 102 116" fill="none" stroke="#38bdf8" stroke-width="4" stroke-linecap="round"/>
+
+<path d="M0 85H-18M150 85H168" stroke="#22d3ee" stroke-width="4"/>
 </g>
 
-<g transform="translate(105 270)" stroke="#38bdf8" stroke-width="2" fill="none" opacity=".7">
-<circle cx="0" cy="0" r="6" fill="#22d3ee"/>
-<circle cx="65" cy="-35" r="6" fill="#22d3ee"/>
-<circle cx="125" cy="10" r="6" fill="#22d3ee"/>
-<circle cx="75" cy="45" r="6" fill="#22d3ee"/>
+<g transform="translate(90 290)" fill="none" stroke="#22d3ee" stroke-width="2" opacity=".55">
+<circle cx="0" cy="0" r="5" fill="#22d3ee"/>
+<circle cx="65" cy="-35" r="5" fill="#22d3ee"/>
+<circle cx="125" cy="10" r="5" fill="#22d3ee"/>
+<circle cx="75" cy="45" r="5" fill="#22d3ee"/>
 <path d="M0 0L65 -35L125 10L75 45L0 0"/>
 <path d="M65 -35L75 45"/>
 </g>
 
-<g transform="translate(1050 270)" stroke="#22d3ee" fill="none" stroke-width="3" opacity=".65">
-<circle cx="0" cy="0" r="48"/>
-<ellipse cx="0" cy="0" rx="20" ry="48"/>
-<path d="M-43 0H43"/>
-<path d="M-32 -28H32"/>
-<path d="M-32 28H32"/>
+<g transform="translate(1080 290)" fill="none" stroke="#38bdf8" stroke-width="3" opacity=".5">
+<circle cx="0" cy="0" r="45"/>
+<ellipse cx="0" cy="0" rx="18" ry="45"/>
+<path d="M-42 0H42"/>
+<path d="M-30 -27H30"/>
+<path d="M-30 27H30"/>
 </g>
 
-<ellipse cx="600" cy="180" rx="390" ry="130" fill="#020617" opacity=".55"/>
+<ellipse cx="600" cy="190" rx="355" ry="120" fill="#020617" opacity=".68"/>
 
-<text x="600" y="175" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="43" font-weight="700" letter-spacing="3" fill="#ffffff">SHARIF BIN AZIZ SHADMAN</text>
+<text x="600" y="168"
+text-anchor="middle"
+font-family="Inter,Segoe UI,Arial,sans-serif"
+font-size="44"
+font-weight="700"
+letter-spacing="4"
+fill="url(#name)">
+SHARIF BIN AZIZ SHADMAN
+<animate attributeName="opacity" values=".9;1;.9" dur="5s" repeatCount="indefinite"/>
+</text>
 
-<line x1="390" y1="205" x2="810" y2="205" stroke="#22d3ee" stroke-width="2" opacity=".8" filter="url(#neon)"/>
+<text x="600" y="198"
+text-anchor="middle"
+font-family="Inter,Segoe UI,Arial,sans-serif"
+font-size="13"
+font-weight="500"
+letter-spacing="6"
+fill="#67e8f9"
+opacity=".75">
+CODE  •  ROBOTICS  •  WEB
+</text>
+
+<line x1="430" y1="222" x2="770" y2="222"
+stroke="#22d3ee"
+stroke-width="1.5"
+opacity=".55"/>
+
+<circle cx="430" cy="222" r="3" fill="#67e8f9"/>
+<circle cx="770" cy="222" r="3" fill="#67e8f9"/>
+
+<g opacity=".6">
+<circle cx="350" cy="70" r="2" fill="#67e8f9">
+<animate attributeName="cy" values="70;55;70" dur="6s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="850" cy="315" r="2" fill="#67e8f9">
+<animate attributeName="cy" values="315;330;315" dur="7s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="420" cy="320" r="2" fill="#67e8f9">
+<animate attributeName="opacity" values=".2;.8;.2" dur="5s" repeatCount="indefinite"/>
+</circle>
+</g>
+
 </svg>
