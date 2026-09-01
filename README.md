@@ -1,9 +1,6 @@
 <p align="center">
-  <img src="./hero.svg" width="100%" alt="Animated coding and robotics"/>
+  <img src="./hero.gif" width="100%" alt="Animated coding robot"/>
 </p>
-
-
-
 
 
 
