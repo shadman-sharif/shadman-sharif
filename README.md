@@ -2,8 +2,6 @@
   <img src="./hero.gif" width="100%" alt="Animated coding robot"/>
 </p>
 
-
-
 🌱 **Learning • Building • Exploring • Improving**
 
 </p>
