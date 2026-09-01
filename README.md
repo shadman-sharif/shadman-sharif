@@ -1,4 +1,6 @@
-
+<p align="center">
+  <img src="./hero.svg" width="100%" alt="Cute animated coding robot"/>
+</p>
 🌱 **Learning • Building • Exploring • Improving**
 
 </p>
