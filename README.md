@@ -1,8 +1,14 @@
-# 🌐 Sharif Bin Aziz Shadman
-
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e40af,100:0891b2&height=220&section=header&text=Sharif%20Bin%20Aziz%20Shadman&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Student%20%7C%20Tech%20Enthusiast%20%7C%20Creative%20Explorer&descAlignY=60&descSize=17" width="100%"/>
+  <img src="./hero.svg" width="100%" alt="Sharif Bin Aziz Shadman"/>
 </p>
+
+
+
+
+
+
+
+
 
 <p align="center">
 
@@ -52,20 +58,6 @@ I'm currently exploring web development and learning how different technologies 
 
 ---
 
-## 🚀 My Portfolio
-
-This portfolio is a place where I can share what I'm learning and the projects I'm working on.
-
-It includes a technology-inspired design with:
-
-* ✨ Smooth animations
-* 🌌 Animated network background
-* ▦ Digital grid effects
-* 🪄 Scroll reveal animations
-* 🎯 Hover interactions
-* 📊 Scroll progress indicator
-* 📡 IoT project showcase
-* 📱 Responsive design
 
 ---
 
@@ -87,23 +79,6 @@ Sometimes the best way to learn something is simply to try it, make mistakes, an
 
 ---
 
-## 🌱 My Learning Journey
-
-```text
-       CURIOUS
-          ↓
-       LEARNING
-          ↓
-     EXPERIMENTING
-          ↓
-       BUILDING
-          ↓
-       MAKING MISTAKES
-          ↓
-       IMPROVING
-          ↓
-        REPEAT 🔄
-```
 
 I'm still at the beginning of my journey, and I'm excited to see where it takes me.
 
@@ -131,7 +106,6 @@ I'm learning one project at a time, experimenting with new ideas, and enjoying t
 
 <p align="center">
 
-### 👋 Hi, I'm Shadman.
 
 **A student. A learner. A creator.**
 
