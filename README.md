@@ -14,4 +14,4 @@ I enjoy making websites, learning through hands-on projects, photography, and ex
 I'm not an expert — I'm simply someone who **enjoys learning, creating, and discovering new things**. 🚀
 
 
-<a href="https://wa.me/8801611683303" target="_blank" rel="noopener noreferrer">WhatsApp ↗</a><a href="https://github.com/shadman-sharif" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/shadmansharif20" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://x.com/shadmansuiii" target="_blank" rel="noopener noreferrer">X ↗</a><a href="https://www.facebook.com/sha.spie" target="_blank" rel="noopener noreferrer" aria-label="Facebook"></a><a href="https://www.instagram.com/sha.dman_spie/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"></a></div>
+
