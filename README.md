@@ -18,7 +18,7 @@
 
 ---
 
-## 👋 About Me
+## About Me (shaspie)
 
 Welcome! I am Sharif Bin Aziz Shadman, a curious technology and creative geek.
 
