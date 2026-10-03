@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:00c2ff&height=170&section=header&text=Hello%2C%20World!&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=42" width="100%" alt="Header"/>
-</p>
+
 
 <p align="center">
   <img src="hero.svg" width="100%" alt="Animated coding robot"/>
