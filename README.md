@@ -36,6 +36,8 @@ I am not an expert, I just really love to learn, tinker around and experiment wi
 | ✨ | **Shaspie** — live web project | ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white) | [shaspie.vercel.app](https://shaspie.vercel.app/) |
 | 🍞 | **Bagdad Bread Factory & Sweets** — business website with admin panel | ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white) | [bagdadbreadfactory.shadmansharif.workers.dev](https://bagdadbreadfactory.shadmansharif.workers.dev/) |
 
+  <img src="https://img.shields.io/badge/%E2%88%9E-AND%20MORE-00C2FF?style=for-the-badge&labelColor=0d1117" alt="Infinity"/>
+</p>
 ---
 
 ## 🛠️ Use To Code
